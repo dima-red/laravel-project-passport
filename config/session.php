@@ -196,6 +196,9 @@ return [
     |
     */
 
+//     'same_site' => 'none',
     'same_site' => 'lax',
+    'secure' => false // важно для localhost (http, не https)
+//     'secure' => true для production
 
 ];
